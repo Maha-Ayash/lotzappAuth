@@ -90,4 +90,9 @@ class ProductController extends Controller
     {
         //
     }
+
+    public function find($name)
+    {
+        return Product::find($name);
+    }
 }
